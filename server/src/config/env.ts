@@ -1,4 +1,4 @@
-const REQUIRED_VARS = ['MONGO_URI', 'JWT_SECRET', 'CLIENT_URL'] as const;
+const REQUIRED_VARS = ['MONGO_URI', 'JWT_SECRET'] as const;
 
 /**
  * Fails fast and loudly if a required env var is missing, instead of
